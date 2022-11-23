@@ -14,8 +14,8 @@ On UCSC homepage, under Tools there is table Browser (https://genome.ucsc.edu/cg
 
 
 The script is run with:
+'''
 python ucsc2bed.py <ucsc_table.infile> <extra_bases>
-
-
+'''
 ucsc_table.infile is the name of the table
 extra_bases is the number of bases outside of the coding exon you want to include
