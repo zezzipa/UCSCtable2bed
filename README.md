@@ -2,6 +2,7 @@
 When getting a bed from UCSC we don't always get what we want. It often have exons with number 0 and includes UTRs. For us only coding exons is of interest. This script takes any of the NCBI RefSeq tables and make it to the bed we want. 
 
 On UCSC homepage, under Tools there is table Browser (https://genome.ucsc.edu/cgi-bin/hgTables)
+
   group: Genes and Gene Predictions
     track: NCBI RefSeq
       table: any
