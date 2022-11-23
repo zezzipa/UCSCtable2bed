@@ -1,7 +1,7 @@
 # UCSCtable2bed
-When getting a bed from UCSC we don't always get what we want. It often have exons with number 0 and includes UTRs. For us only coding exons is of interest. This script takes any of the NCBI RefSeq tables and make it to the bed we want. 
+When getting a bed from UCSC, we don't always get what we want. It often has exons with the number 0, not to mention numbers in the wrong order when on a negative strand, and includes UTRs. For us, only coding exons is of interest. This script takes any NCBI RefSeq tables and makes it to the bed we want. 
 
-On UCSC homepage, under Tools there is table Browser (https://genome.ucsc.edu/cgi-bin/hgTables)
+On the UCSC homepage, under Tools, you can find Table Browser (https://genome.ucsc.edu/cgi-bin/hgTables)
 
 > group: Genes and Gene Predictions
 > 
@@ -13,7 +13,7 @@ On UCSC homepage, under Tools there is table Browser (https://genome.ucsc.edu/cg
 
 
 
-The script is run with:
+The script is run with the following:
 ```
 python ucsc2bed.py <ucsc_table.infile> <extra_bases>
 ```
