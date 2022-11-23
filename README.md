@@ -4,7 +4,9 @@ When getting a bed from UCSC we don't always get what we want. It often have exo
 On UCSC homepage, under Tools there is table Browser (https://genome.ucsc.edu/cgi-bin/hgTables)
 
 > group: Genes and Gene Predictions
+> 
 > track: NCBI RefSeq
+> 
 > table: any
 >         
 > output format: all fields from selected table
